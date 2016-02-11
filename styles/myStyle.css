@@ -1,0 +1,285 @@
+
+/*
+border-bottom:solid 8px #b2323e;
+
+*/
+body {
+	background-color: #fff;
+	margin: 40px;
+	font-family: Lucida Grande, Verdana, Sans-serif;
+	font-size: 14px;
+	color: #4F5155;
+	margin:0px;
+	padding:0px;	
+	padding-right:10px;	
+	border-right:solid 1.5px #aaaaaa;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 24px 0 2px 0;
+	padding: 5px 0 6px 0;
+}
+
+.profile {
+	width: 335px;
+	float: left;
+}
+/* page */
+#pagenavi{
+	position: fixed;
+	top:137px;
+	text-align:center;
+	font-size:20px;
+}
+/* error */
+.error {
+	text-align:center;
+	color: #D8000C;
+	background-color: #FFBABA;	
+	order: 1px solid;
+	margin: 0px 0px 0px; 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+/* user info */
+
+div.exampleboxshadow {
+background-color: #EEE;
+padding: 20px;
+margin-top: 10px;
+margin-right: 20px;
+text-align: center;
+-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+div.exampleboxshadow span {
+color: red;
+font-size: 17px;
+}
+/* table */
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+/* Button */
+/*
+input[type="submit"] {
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	display: block;
+	width: auto;
+	padding: 3px;
+	border: 1px solid #DDD;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background: white;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white),
+		to(#EEE) );
+	background: -moz-linear-gradient(0% 90% 90deg, #EEE, white);
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	color: #fff;
+	border-color: #3278BE;
+	background: #4195DD;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4195DD),
+		to(#003C82) );
+	background: -moz-linear-gradient(0% 90% 90deg, #003C82, #4195DD);
+}
+
+input[type="submit"]:active {
+	background: #4195DD;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003C82),
+		to(#4195DD) );
+	background: -moz-linear-gradient(0% 90% 90deg, #4195DD, #003C82);
+}
+
+input[type="submit"].notransitions {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+
+.galleria-lightbox-favorit_btn submit
+*/
+/* Bond*/
+
+.favorites_submit{
+	background: url(images/menu/btn_favorite.png) no-repeat;
+    height: 24px;
+    width: 77px;
+    border: none;
+    cursor:pointer;
+}
+.unfavorites_submit{
+	background: url(images/menu/btn_unfavorite.png) no-repeat;
+    height: 24px;
+    width: 77px;
+    border: none;
+    cursor:pointer;
+}
+
+/* form div*/
+#image_title{	
+	text-align: center;
+}
+#image_created{	
+	float:right;
+}
+#form_div{	
+	float:right;
+}
+#toprowsub {
+	height:50px;border-bottom:solid 1px #ccc;background: #FFFFFF url(images/bg2.gif) repeat-x;
+	padding-top:7px;	
+}
+#toprowsub h2{padding:15px 30px;}
+#toprowsub talbe{
+	border-spacing: 0px;
+}
+
+#header {
+	background:#ffffff;
+	height:60px;
+	/*border-bottom:solid 8px #b2323e;*/
+	margin-bottom:10px;
+	}
+
+/*LOGO*/
+#logo{width:207px;float:left;}
+#logo a{background:url(images/menu/logo.png) no-repeat;display:block;width:209px;height:60px;text-indent:-10000px;}
+/*LOGO END*/
+/* Menu */
+/*Menu Begin*/
+#menu{}
+/*#menu ul li{ display:inline; list-style-type:none;}*/
+/*#menu ul li a{padding:5px 0px; font-size:14px; text-decoration:none; margin:0px 10px; font-weight:bold;}*/
+/*#menu ul li a span{font-size:14px; text-decoration:none; padding:0px 10px; color:#999999;}*/
+#menu a{
+	margin-top:11px;
+	margin-right:25px;
+	float:right;
+	display:block;
+	height:53px;text-indent:-10000px;
+}
+#friends a{
+	background:url(images/menu/menu_photo_off.png) no-repeat;	
+	width:125px;
+}
+#friends a:hover{
+	background:url(images/menu/menu_photo_on.png) no-repeat;		
+}
+#friends a.active{
+	background:url(images/menu/menu_photo_on.png) no-repeat;		
+}
+
+#favorites a{
+	background:url(images/menu/menu_favorite_off.png) no-repeat;	
+	width:125px;
+}
+#favorites a:hover{
+	background:url(images/menu/menu_favorite_on.png) no-repeat;		
+}
+#favorites a.active{
+	background:url(images/menu/menu_favorite_on.png) no-repeat;		
+}
+
+#about a{
+	background:url(images/menu/menu_about_off.png) no-repeat;	
+	width:100px;
+}
+#about a:hover{
+	background:url(images/menu/menu_about_on.png) no-repeat;		
+}
+#about a.active{
+	background:url(images/menu/menu_about_on.png) no-repeat;		
+}
+/*
+#menu ul li a.active{background:url(images/menur.gif) no-repeat right;}
+#menu ul li a.active span{background:url(images/menul.gif) no-repeat left; padding:5px 10px;color:#333;}
+#menu ul li a:hover{background:url(images/menur.gif) no-repeat right; font-weight:bold;}
+#menu ul li a:hover span{background:url(images/menul.gif) no-repeat left; padding:5px 10px;color:#333;}
+*/
+/*Menu End*/
+.current {
+	background: #74befd url(images/menu_hover.gif) repeat-x;
+	border: 2px solid #4a88ce;
+	margin: 0 1px;
+	padding: 15px 15px 15px 15px;
+	display: block;
+	float: left;
+	color: #2b61a1;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	font-weight: bold;
+	height: 50px;
+}
+
+.current span {
+	color: #636363;
+	font-size: 10px;
+	text-transform: lowercase;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+
+/*selected*/
+.select {  	
+  width: 158px;
+  height: 21px;
+  padding: 0 0px 0 5px;  
+  font: 12px/21px arial,sans-serif; 
+  overflow: hidden;
+}
+
+/* animation */
+
+
